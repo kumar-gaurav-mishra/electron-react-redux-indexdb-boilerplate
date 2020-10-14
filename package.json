@@ -1,17 +1,19 @@
 {
-  "name": "electron-react-example",
-  "version": "0.1.0",
+  "name": "electron-react-redux-indexdb-boilerplate",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "dexie": "^3.0.2",
     "electron-is-dev": "^1.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-redux": "^7.2.1",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5"
   },
-
   "homepage": "./",
   "build": {
     "appId": "com.example.electron-cra",
@@ -19,7 +21,7 @@
       "build/**/*",
       "node_modules/**/*"
     ],
-    "directories":{
+    "directories": {
       "buildResources": "assets"
     }
   },
